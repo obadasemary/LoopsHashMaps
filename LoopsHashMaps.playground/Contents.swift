@@ -18,8 +18,9 @@ func convert(numberAsWord: String) -> Int? {
     // 1337 = 1000 + 300 + 30 + 7
     // 1337 = 1 * 10^3 + 3 * 10^2 + 3 * 10^1 + 7 * 10^0
     
-    let valueMap = [
-        "1" as Character: 1,
+    let valueMap: [Character: Int] = [
+        "0": 0,
+        "1": 1,
         "2": 2,
         "3": 3,
         "4": 4,
@@ -27,8 +28,7 @@ func convert(numberAsWord: String) -> Int? {
         "6": 6,
         "7": 7,
         "8": 8,
-        "9": 9,
-        "0": 0
+        "9": 9
     ]
     
     for (i, c) in numberAsWord.enumerated() {
