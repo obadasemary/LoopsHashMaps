@@ -7,12 +7,9 @@ LoopsHashMaps
 
 <h1></h1>
 
-<b>Libraries used</b>
-<pre>
+<b>
 A very common task asked to perform in an interview question is to convert a String to an Integer without making any calls to standard conversion code.  In today's lesson, we'll go over how this is done using loops and a Hash Map dictionary. Enjoy.
-
-</pre>
-
+</b>
 <h1></h1>
 
 
